@@ -1,0 +1,53 @@
+
+// Just One time to generate the Key file
+  keytool -genkey -v -keystore D:\src\Khazen\ucook-flutter\ucook-keystore.jks -storetype JKS -keyalg RSA -keysize 2048 -validity 10000 -alias ucook
+
+
+// Just One time in build.gradle File
+
+    ++ Change applicationId in defaultConfig sector
+
+    ++ Add this :
+                    def keystoreProperties = new Properties()
+                    def keystorePropertiesFile = rootProject.file('key.properties')
+                    if (keystorePropertiesFile.exists()) {
+                        keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+                    }
+
+    ++ add this after defaultConfig sector:
+                    signingConfigs {
+                    release {
+                        keyAlias keystoreProperties['keyAlias']
+                        keyPassword keystoreProperties['keyPassword']
+                        storeFile keystoreProperties['storeFile'] ? file(keystoreProperties['storeFile']) : null
+                        storePassword keystoreProperties['storePassword']
+                    }
+                }
+
+    ++ in buildTypes sector:
+        Change "signingConfig signingConfigs.debug" to signingConfig signingConfigs.release
+
+
+// Just One time in Android Folder:
+    add key.properties file
+    write your keystoreProperties in key.properties file like:
+        storePassword=UCook@123
+        keyPassword=UCook@123
+        keyAlias=ucook
+        storeFile=D:/src/Khazen/ucook-flutter/ucook-keystore.jks
+
+
+// every time to sign the release
+flutter build appbundle --no-sound-null-safety
+
+
+// every time to sign the release
+jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore "D:\src\Khazen\ucook-flutter\ucook-keystore.jks" "D:\src\Khazen\ucook-flutter\build\app\outputs\bundle\release\app-release.aab" ucook
+
+
+// every time to compress the release (in cmd AS ADMIN)
+cd C:\Users\Abdel\AppData\Local\Android\Sdk\build-tools\29.0.2
+zipalign -v 4 "D:\src\Khazen\ucook-flutter\build\app\outputs\bundle\release\app-release.aab" "D:\src\Khazen\ucook-flutter\build\app\outputs\bundle\release\UCook-release.aab"
+
+// every time
+Upload D:\src\Khazen\ucook-flutter\build\app\outputs\bundle\release\UCook-release.aab To Play Store 

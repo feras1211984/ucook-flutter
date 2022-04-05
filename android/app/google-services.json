@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1073896963541",
+    "project_id": "alkhazen-soft",
+    "storage_bucket": "alkhazen-soft.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1073896963541:android:48ddee03b6e5d2aa30d15c",
+        "android_client_info": {
+          "package_name": "com.alkhazensoft.ucook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1073896963541-0p2jocdlt6od1oc2vmp3eqacqapp89p6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfs1NFwAJbQDqWka_I68XDm_jV9rfs1Qs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1073896963541-0p2jocdlt6od1oc2vmp3eqacqapp89p6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

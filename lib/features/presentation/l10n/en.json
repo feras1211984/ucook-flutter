@@ -1,0 +1,103 @@
+{
+    "drawer-widget-drawer-header": "UCook",
+    "drawer-widget-login-page": "Login",
+    "drawer-widget-signup-page": "Signup",
+    "drawer-widget-logout": "Logout",
+    "drawer-widget-owner-info": "Developed by: AlKhazen Soft",
+
+    "login-widget-login-title": "Login",
+    "login-widget-mobileNumber": "Mobile number",
+    "login-widget-mobileNumber-hint": "Ex: 9××××××××",
+    "login-widget-password": "Password",
+    "login-widget-password-hint": "Input your password",
+    "login-widget-forget-password-question": "Forgot Password?",
+    "login-widget-login-btn" : "Login",
+    "login-widget-create-new-account": "New User? Create Account",
+
+    "registration-widget-signup-title": "Register a new user",
+    "registration-widget-mobileNumber": "Mobile number",
+    "registration-widget-mobileNumber-hint": "Input your mobile number",
+    "registration-widget-name": "Name",
+    "registration-widget-phone-hint": "Input your phone number",
+    "registration-widget-signup-btn": "Sign up",
+    "registration-widget-register-waiting-txt": "Your account has been registered\n please wait for activation",
+    "registration-widget-blocked-user-alert": "Blocked Account! Please connect to support.",
+    "registration-widget-no-user-alert": "No Account! Please go to register page.",
+    "registration-widget-not-approved-alert": "Account not approved! Please connect to support.",
+    "registration-widget-error-alert": "Error in login! Try again.",
+
+    "cart-widget-tittle": "Cart",
+    "cart-widget-discount-code-hint": "Discount code",
+    "cart-widget-cart-total": "Cart total",
+    "cart-widget-tax": "Tax",
+    "cart-widget-delivery": "Delivery",
+    "cart-widget-discount": "Discount",
+    "cart-widget-total": "Total",
+    "cart-widget-send-order-btn": " Send order ",
+    "cart-widget-empty-cart": "Cart is Empty",
+    "cart-page-paid-shipping": "Paid Shipping",
+    "cart-page-receipt-from-the-hall": "Receipt from the hall",
+    "cart-page-confirm-order-title": "Confirm Send Order",
+    "cart-page-confirm-order-msg": "Choose how you will receive your current order",
+    "cart-page-remove-cart-btn": "Remove the Cart",
+    "cart-page-confirm-remove-cart-title": "Confirm remove the Cart",
+    "cart-page-confirm-remove-cart-msg": "Are you sure you want to remove the Cart?",
+
+    "back": "Back",
+
+    "cart-item-widget-article-total": "Article total: ",
+    "cart-item-widget-article-price": "Article distributive: ",
+    
+    "articles-widget-tittle": "Categories",
+
+    "orders-page-title": "My orders",
+    "orders-page-order-id": "Order id: ",
+    "orders-page-order-status": "Order stauts: ",
+    "orders-page-order-processing-orders": "Processing",
+    "orders-page-order-done-orders": "Done",
+    "orders-page-order-canceled-orders": "Canceled",
+    "orders-page-total": "Total",
+    
+    "home-page-exit-app-message": "Press one more time to Exit",
+
+    "yes": "Yes",
+    "no": "No",
+
+    "setting-page-lang-label": "Language",
+    "setting-page-change-lang-message": "The application will restart to change the language!",
+
+    "item-detail-page-article-details-lable": "Article details",
+    "item-detail-page-article-description-lable": "Description",
+    "item-detail-page-article-dimensions-lable": "Dimensions",
+    "item-detail-page-article-packing-lable": "Packing",
+
+    "carousel-video-widget-click": "Click to play video",
+
+    "buttom-bar-widget-orders": "Orders",
+    "buttom-bar-widget-home": "Home",
+    "buttom-bar-widget-settings": "Settings",
+
+    "search-article-widget-article-price": "Article price:",
+
+    "courses-page-fullscreen-button": "Fullscreen",
+
+    "video-fullscreen-page-exit-page-title": "Are you sure?",
+    "video-fullscreen-page-exit-page-message": "Do you want to exit the video?",
+
+    "app-bar-search-hint": "Find a Product",
+
+    "article-page-no-data": "There are no products available in this category",
+    "article-search-page-no-data": "Your search didnt match any Product",
+    
+    "rev-code-page-wrong": "Wrong code! Try again",
+    "rev-code-page-phone": "Your Phone number: ",
+    "rev-code-page-correct-phone": "Correct phone number",
+    "rev-code-page-enter-code": "Enter the four-digit code sent to you by text message",
+    "rev-code-page-resend-code": "Resend Code",
+
+    "notification-page-title": "Notification",
+
+    "notifications-page-title": "Notifications",
+    "notifications-page-confirm-remove-notification-title": "Confirm remove the notification",
+    "notifications-page-confirm-remove-notification-msg": "Are you sure you want to remove the notification?"
+}

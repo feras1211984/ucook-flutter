@@ -1,0 +1,12 @@
+const String LOGIN_ROUTE = "/Login";
+const String REGISTER_ROUTE = "/Register";
+const String HOME_ROUTE = "/Home";
+const String CONFIRM_VERIFICATION_CODE_ROUTE = "/VerificationCode";
+const String Article_Categories_ROUTE = "/ArticleCategories";
+const String Articles_ROUTE = "/Articles";
+const String Waiting_For_Approve_Account_ROUTE = "/WaitingForRegister";
+const String CART_ROUTE = "/Cart";
+const String ARTICLE_SEARCH = "/ArticleSearch";
+const String COURSES_ROUTE = "/Courses";
+const String NOTIFICATION_ROUTE = "/NotificationPage";
+const String NOTIFICATIONS_ROUTE = "/NotificationsPage";

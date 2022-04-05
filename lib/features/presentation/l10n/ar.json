@@ -1,0 +1,103 @@
+{
+    "drawer-widget-drawer-header": "UCook",
+    "drawer-widget-login-page": "تسجيل الدخول",
+    "drawer-widget-signup-page": "إنشاء حساب",
+    "drawer-widget-logout": "تسجيل الخروج",
+    "drawer-widget-owner-info": "طوّر بواسطة: مركز الخازن للبرمجيات",
+
+    "login-widget-login-title": "تسجيل الدخول",
+    "login-widget-mobileNumber": "رقم الموبايل",
+    "login-widget-mobileNumber-hint": "مثال: ××××××××9",
+    "login-widget-password": "كلمة المرور",
+    "login-widget-password-hint": "أدخل كلمة المرور الخاصة بك",
+    "login-widget-forget-password-question": "هل نسيت كلمة المرور؟",
+    "login-widget-login-btn" : "تسجيل الدخول",
+    "login-widget-create-new-account": "هل أنت مستخدم جديد؟ قم بإنشاء حساب",
+
+    "registration-widget-signup-title": "تسجيل مستخدم جديد",
+    "registration-widget-mobileNumber": "رقم الموبايل",
+    "registration-widget-mobileNumber-hint": "أدخل رقم الموبايل الخاص بك",
+    "registration-widget-name": "الاسم",
+    "registration-widget-signup-btn": "تسجيل",
+    "registration-widget-register-waiting-txt": "تم تسجيل حسابك \nيرجى انتظار التفعيل",
+    "registration-widget-blocked-user-alert": "حسابك محظور! يرجى التواصل مع قسم الدعم الفني.",
+    "registration-widget-no-user-alert": "لا يوجد حساب لهذا الموبايل! توجه لصفحة تسجيل مستخدم جديد",
+    "registration-widget-not-approved-alert": "حسابك غير مؤكد بعد! تواصل مع الإدارة.",
+    "registration-widget-error-alert": "حصل خطأ أثناء تسجيل الدخول! حاول ثانية.",
+
+    "cart-widget-tittle": "سلة الأصناف",
+    "cart-widget-discount-code-hint": "رمز الخصم",
+    "cart-widget-cart-total": "إجمالي السلة",
+    "cart-widget-tax": "الضريبة",
+    "cart-widget-delivery": "التوصيل",
+    "cart-widget-discount": "الحسم",
+    "cart-widget-total": "الإجمالي",
+    "cart-widget-send-order-btn": " إرسال الطلب",
+    "cart-widget-empty-cart": "السلة فارغة",
+    "cart-page-paid-shipping": "شحن مأجور",
+    "cart-page-receipt-from-the-hall": "استلام من الصالة",
+    "cart-page-confirm-order-title": "تأكيد إرسال الطلب",
+    "cart-page-confirm-order-msg": "اختر آلية استلامك للطلب الحالي",
+    "cart-page-remove-cart-btn": "حذف السلة",
+    "cart-page-confirm-remove-cart-title": "تأكيد حذف السلة",
+    "cart-page-confirm-remove-cart-msg": "هل أنت متأكد من رغبتك بحذف السلة؟",
+
+    "back": "رجوع",
+
+    "cart-item-widget-article-total": "إجمالي الصنف: ",
+    "cart-item-widget-article-price": "إفرادي الصنف: ",
+
+    "articles-widget-tittle": "التصنيفات",
+
+    "orders-page-title": "طلباتي",
+    "orders-page-order-id": "رقم الطلب: ",
+    "orders-page-order-status": "حالة الطلب: ",
+    "orders-page-order-processing-orders": "قيد التنفيذ",
+    "orders-page-order-done-orders": "تم التنفيذ",
+    "orders-page-order-canceled-orders": "ملغى",
+    "orders-page-total": "المجموع",
+
+    "home-page-exit-app-message": "اضغط مرة أخرى لإغلاق التطبيق",
+
+    "yes": "نعم",
+    "no": "لا",
+
+    "setting-page-lang-label": "لغة التطبيق: ",
+    "setting-page-change-lang-message": "سيتم إعادة تشغيل التطبيق لتغيير اللغة!",
+
+    "item-detail-page-article-details-lable": "تفاصيل الصنف",
+    "item-detail-page-article-description-lable": "الوصف",
+    "item-detail-page-article-dimensions-lable": "الأبعاد",
+    "item-detail-page-article-packing-lable": "التعبئة",
+
+    "carousel-video-widget-click": "اضغط لمشاهدة الفيديو",
+
+    "buttom-bar-widget-orders": "الطلبات",
+    "buttom-bar-widget-home": "الرئيسية",
+    "buttom-bar-widget-settings": "الإعدادات",
+
+    "search-article-widget-article-price": "سعر الصنف:",
+
+    "courses-page-fullscreen-button": "ملء الشاشة",
+
+    "video-fullscreen-page-exit-page-title": "هل أنت متأكد؟",
+    "video-fullscreen-page-exit-page-message": "هل تريد حقًا إغلاق الفيديو؟",
+
+    "app-bar-search-hint": "البحث عن منتج",
+
+    "article-page-no-data": "لا يوجد منتجات متاحة ضمن هذا التصنيف",
+
+    "article-search-page-no-data": "لم يتطابق بحثك مع أي منتج",
+
+    "rev-code-page-wrong": "رمز خاطئ! أعد المحاولة",
+    "rev-code-page-phone": "رقمك هو: ",
+    "rev-code-page-correct-phone": "تصحيح رقم الموبايل",
+    "rev-code-page-enter-code": "أدخل الرمز المرسل لك برسالة نصية والمكون من أربع خانات",
+    "rev-code-page-resend-code": "إعادة إرسال الرمز",
+
+    "notification-page-title": "إشعار",
+
+    "notifications-page-title": "الإشعارات",
+    "notifications-page-confirm-remove-notification-title": "تأكيد حذف الإشعار",
+    "notifications-page-confirm-remove-notification-msg": "هل أنت متأكد من رغبتك بحذف الإشعار؟"
+}
